@@ -19,8 +19,24 @@ main {
   width: 300px;
 }
 
-#info {
+#info, footer {
   text-align: center;
   color: #71619e;
+}
+
+footer {
+  width: 300px;
+  position: absolute;
+  bottom: 5px;
+  font-size: 90%;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: greenyellow;
 }
 /*# sourceMappingURL=style.css.map */
